@@ -48,6 +48,7 @@ function renderList(letter) {
 
 function setList(data) {
 	list = data.map(item => item.name);
+	renderList(selectBlock.value);
 }
 
 function renderSelect(arr) {
